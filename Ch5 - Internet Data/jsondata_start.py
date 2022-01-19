@@ -55,7 +55,7 @@ def main():
         data = webUrl.read()
         printResults(data)
     else:
-        print("Received an error from the server, cannot print results", webUrl.getcode())
+        print("Received an error from the server, cannot print results!", webUrl.getcode())
   
 
 if __name__ == "__main__":
